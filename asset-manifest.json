@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-basics-Exercise-3/static/css/main.034927fe.css",
+    "main.js": "/React-basics-Exercise-3/static/js/main.8180adeb.js",
+    "index.html": "/React-basics-Exercise-3/index.html",
+    "main.034927fe.css.map": "/React-basics-Exercise-3/static/css/main.034927fe.css.map",
+    "main.8180adeb.js.map": "/React-basics-Exercise-3/static/js/main.8180adeb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.034927fe.css",
+    "static/js/main.8180adeb.js"
+  ]
+}
