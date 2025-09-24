@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import TernaryOperator from './TernaryOperator/TernaryOperator';
+import ClickEvent from './Events/ClickEvent';
+import MouseEvents from './Events/MouseEvents';
+import Resize from './EventListeners/Resize';
+import FormEvents from './FormEvents/FormEvents';
+import FormEvents1 from './FormEvents/FormEvents1';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="App">
+      <div class="box"><TernaryOperator/></div>
+      <div class="box"><ClickEvent/></div>
+      <div class="box"><Resize/></div>
+      <div class="box"><FormEvents/></div>
+      <div class="box"><FormEvents1/></div>
+      <div class="box"><MouseEvents/></div>
     </div>
-  );
+  )
 }
 
 export default App;
